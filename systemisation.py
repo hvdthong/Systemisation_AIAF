@@ -31,7 +31,7 @@ risk_treatment_data = pd.DataFrame([
     {"RiskID": "R005", "Risk Description": "Public results not validated", "TagID": "T005", "Treatment Suggestion": "Set up pre-release validation/testing steps"}
 ])
 
-file_path = '../synthetic_data.xlsx'
+file_path = 'synthetic_data.xlsx'
 sheet_name = 'System Context Assessment' 
 df_context = load_system_context(file_path=file_path, sheet_name=sheet_name)
 
